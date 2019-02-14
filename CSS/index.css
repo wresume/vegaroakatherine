@@ -226,3 +226,25 @@ table{
 #closeFooter:focus{
 	outline: none;
 }
+
+@media all and (max-width: 960px){
+	#wallpaper{
+		max-width: 100%;
+		padding: .5rem;
+	}
+}
+@media all and (max-width: 568px){
+	.right{
+		width: 60%;
+	}
+	.left{
+		width: 40%;
+	}
+	.subTitles{
+		font-size: .8rem;
+	}
+	table th{
+		min-width: auto;
+		font-size: .75em;
+	}
+}}
